@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Polished Solitaire Ring",
+    "product_id": "SJ-R-001",
+    "description": "Elegant polished solitaire ring in 18K gold with a brilliant cut center stone.",
+    "images": ["/placeholder/solitaire-1.jpg","/placeholder/solitaire-2.jpg"],
+    "price": 25000,
+    "category": "rings",
+    "new_arrival": true,
+    "featured": false,
+    "published": true
+  },
+  {
+    "name": "Heritage Temple Necklace",
+    "product_id": "SJ-N-001",
+    "description": "Traditional temple-style necklace with hand-carved motifs and kundan inlay.",
+    "images": ["/placeholder/necklace-1.jpg"],
+    "price": 45000,
+    "category": "necklaces",
+    "new_arrival": false,
+    "featured": true,
+    "published": true
+  }
+]
