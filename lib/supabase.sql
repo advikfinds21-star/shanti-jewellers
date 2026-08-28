@@ -120,7 +120,8 @@ SELECT
 FROM categories c WHERE c.slug = 'earrings' LIMIT 1
 ON CONFLICT DO NOTHING;
 
--- Seed admin user row (no password stored here; use Supabase Auth to link)
+-- Seed admin user rows (no password stored here; use Supabase Auth to link)
 INSERT INTO admins (email, name, role) VALUES ('owner@example.com','Owner','admin') ON CONFLICT DO NOTHING;
+INSERT INTO admins (email, name, role) VALUES ('shantijewellers05@gmail.com','Owner','admin') ON CONFLICT DO NOTHING;
 
 -- Note: Connect Supabase Auth users to admins table via user metadata and RLS policies in production.
